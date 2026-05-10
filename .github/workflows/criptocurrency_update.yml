@@ -7,6 +7,9 @@ env:
 on:
   push:
 
+permissions:
+  contents: write
+
 jobs:
   autoscrape:
     runs-on: macos-latest

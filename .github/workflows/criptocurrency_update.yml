@@ -6,6 +6,8 @@ env:
 
 on:
   push:
+  repository_dispatch:
+   types: invocacion_desde_curl
 
 permissions:
   contents: write
